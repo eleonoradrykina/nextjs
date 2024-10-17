@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.imageRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.imageWrapper {
+    width: 30rem;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
