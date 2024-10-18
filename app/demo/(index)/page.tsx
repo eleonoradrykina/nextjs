@@ -1,3 +1,7 @@
+import Header from '@/app/ui/header';
+
 export default function Page() {
-    return <div>Demo</div>
+    return <div>
+        <Header title="Demo" />
+    </div>
 }

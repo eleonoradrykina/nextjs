@@ -1,10 +1,12 @@
 import Image from "next/image"
 import renePic from '../../../public/img/rene.png'
 import styles from './ImageOptimization.module.css'
+import Header from '@/app/ui/header';
 
 export default function ImageOptimization() {
   return (
     <div className="">
+      <Header title="Image Optimization" />
       <main className="flex flex-col gap-8">
         <div className={styles.imageWrapper}>
         <p>Picture of snowy Estonia from AirBaltic blog:</p>

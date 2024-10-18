@@ -16,6 +16,10 @@ const links = [
     {
         name: 'Routing',
         href: '/demo/routing',
+    },
+    {
+        name: 'Streaming',
+        href: '/demo/streaming',
     }
 ]
 

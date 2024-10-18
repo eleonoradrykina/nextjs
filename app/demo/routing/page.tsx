@@ -1,7 +1,10 @@
 'use client'
 
+import Header from '@/app/ui/header';
+
 export default function Page() {
-    return <div>Demo for Routing
+    return <div>
+        <Header title="Demo for Routing" />
         <p>
         <button
             onClick={() => {
